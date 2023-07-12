@@ -9,7 +9,7 @@ require('./swagger')(app); // Importa y configura Swagger
 
 //connect to mongo db
 mongoose.connect(
-  "mongodb+srv://anajuncoescobar:36062003@cluster0.sthoshr.mongodb.net"
+  "mongodb+srv://YOUR MONGO URL"
 );
 app.use(cors());
 //Indicar el fromato json para el archivo
